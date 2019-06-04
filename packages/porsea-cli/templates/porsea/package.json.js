@@ -22,6 +22,6 @@ module.exports = ({ name, description }) => ({
   author: "",
   license: "MIT",
   dependencies: {
-    porsea: "file:../../porsea-0.0.1.tgz"
+    porsea: "0.0.1"
   }
 });
