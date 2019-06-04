@@ -1,9 +1,3 @@
-# CASHFAZZ PORSEA
+# Cashfazz Porsea
 
-A React Framework
-
-#### Roadmap
-
-- [] Default configuration Webpack
-- [] Override default config (File/Function)
-- [] Automatic Navigation
+A React Framework made by Fazz Team
