@@ -1,0 +1,11 @@
+import React from "react";
+import compose from "porsea/lib/utils/compose";
+import withNavigationOptions from "porsea/lib/hoc/with-navigation-options";
+
+class {{ PageName }} extends React.Component {
+  render() {
+    return null
+  }
+}
+
+export default compose(withNavigationOptions({ path: "/{{ PagePath }}" })) {{ PageName }};
