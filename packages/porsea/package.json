@@ -1,6 +1,6 @@
 {
   "name": "porsea",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "bin": {
     "porsea": "./bin/index.js"
@@ -36,6 +36,7 @@
     "circular-dependency-plugin": "5.0.2",
     "clean-webpack-plugin": "2.0.1",
     "css-loader": "2.1.1",
+    "dotenv-webpack": "^1.7.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
     "eslint": "5.15.3",

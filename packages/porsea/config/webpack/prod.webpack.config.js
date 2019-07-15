@@ -6,6 +6,7 @@ const fs = require("fs");
 const path = require("path");
 const LOCATION = require("../../utils/location");
 const webpack = require("webpack");
+const Dotenv = require("dotenv-webpack");
 const TerserPlugin = require("terser-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
@@ -157,6 +158,7 @@ var config = {
         })()
       }
     }),
+    new Dotenv(),
     new MiniCssExtractPlugin({
       filename: "style.[contenthash].css"
     }),
