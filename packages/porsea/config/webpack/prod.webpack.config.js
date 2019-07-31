@@ -23,7 +23,8 @@ var config = {
   },
   output: {
     path: path.resolve(LOCATION.CURRENT_TERMINAL_PATH, "build"),
-    filename: "[name].[hash].js"
+    filename: "[name].[hash].js",
+    publicPath: "/"
   },
   module: {
     rules: [
