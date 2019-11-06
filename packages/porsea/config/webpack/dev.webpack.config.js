@@ -148,7 +148,8 @@ var config = {
       filename: "style.[contenthash].css"
     }),
     new HtmlWebpackPlugin({
-      template: LOCATION.INDEX_HTML_PATH
+      template: LOCATION.INDEX_HTML_PATH,
+      favicon: "./src/favicon.ico"
     }),
     new CircularDependencyPlugin({
       exclude: /a\.js|node_modules/,
